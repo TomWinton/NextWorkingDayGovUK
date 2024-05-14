@@ -3,7 +3,8 @@ A Custom Action providing the next working day from a time and date you specify 
 
 ## What is it doing
 This:
-![image](https://github.com/TomWinton/NextWorkingDayGovUK/assets/46353068/3e36be69-80dc-4007-ab87-ccfdeacc84bb)
+![image](https://github.com/TomWinton/NextWorkingDayGovUK/assets/46353068/bf5a8b3e-4604-4929-8979-302790355a4c)
+
 
 
 
