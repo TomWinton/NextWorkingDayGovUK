@@ -11,7 +11,9 @@ This:
 ## Basics
 ### Inputs
 Date: The Date To Start From
+
 Region: Enum: england-and-wales,scotland,northern-ireland
+
 WorkingDays: Int: Days to Add
 
 ### Outputs
