@@ -10,17 +10,17 @@ This:
 
 ## Basics
 ### Inputs
-Date: The Date To Start From
+(DateTime) Date: The Date To Start From
 
-Region: Enum: england-and-wales,scotland,northern-ireland
+(Enum, string) Region: england-and-wales,scotland,northern-ireland
 
-WorkingDays: Int: Days to Add
+(Int) WorkingDays: Days to Add
 
-### Outputs
-Output: Date : A Date 10 working days from now based on the region selected 
+### Outputs.
+(Date) Output: A Date <WorkingDays> from now ignoring weekends and bank holidays within <Region>
 
 ### Logic
 Retrieves www.gov.uk/bank-holidays.json , 
-Returns 10 days onto the date specified + any days that are weekends or are dates inside the gov uk file for the region specified. 
+Adds <WorkingDays> days onto the date specified + any days that are weekends or are dates inside the gov uk file for the region specified. 
 
 
